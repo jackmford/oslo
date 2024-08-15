@@ -56,6 +56,12 @@ example:
 oslo convert -f file1.yaml -f file2.yaml -o nobl9
 ```
 
+specify nobl9 project assignment:
+
+```bash
+oslo convert -f file1.yaml -f file2.yaml -o nobl9 -p project_name
+```
+
 That will take the provided yaml files, convert them to Nobl9 formatted config
 format, and output to stdout.
 
